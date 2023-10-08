@@ -109,6 +109,7 @@ for (let m = cleanStr.length - 1; m >= 0; m--) {
   reversedStr += cleanStr[m];
 }
 
+// checking if the strings are equal
 if (reversedStr === cleanStr) {
   console.log(`The string submitted is a palindrome`);
 } else {
